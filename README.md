@@ -5,7 +5,7 @@
 [![Forum](https://img.shields.io/badge/forum-alfred--chrome-yellowgreen)](https://www.alfredforum.com/topic/9473-alfred-chrome-open-url-in-google-chrome-also-with-specific-profile)
 [![License](https://img.shields.io/github/license/ShogunPanda/alfred-chrome.svg)](https://github.com/ShogunPanda/alfred-chrome/blob/master/LICENSE.md)
 
-This workflow allows you to open a URL in [Google Chrome](https://www.google.com/chrome/) via [Alfred 3](https://www.alfredapp.com/).
+This workflow allows you to open a URL in [Google Chrome](https://www.google.com/chrome/) via [Alfred 4](https://www.alfredapp.com/).
 
 https://sw.cowtech.it/alfred-chrome
 
