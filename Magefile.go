@@ -1,3 +1,4 @@
+//go:build mage
 // +build mage
 
 /*
@@ -22,7 +23,7 @@ import (
 
 const target = "alfred-chrome"
 const workflowId = "it.cowtech.alfred.chrome"
-const workflows = "~/Library/Application Support/Alfred 3/Alfred.alfredpreferences/workflows/*/info.plist"
+const workflows = "~/Library/Application Support/Alfred/Alfred.alfredpreferences/workflows/*/info.plist"
 
 type WorkflowProperties struct {
 	ID string `plist:"bundleid"`

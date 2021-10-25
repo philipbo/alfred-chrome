@@ -1,0 +1,4 @@
+github.com/magefile/mage v1.11.0 h1:C/55Ywp9BpgVVclD3lRnSYCwXTYxmSppIgLeDYlNuls=
+github.com/magefile/mage v1.11.0/go.mod h1:z5UZb/iS3GoOSn0JgWuiw7dxlurVYTu+/jHXqQg881A=
+howett.net/plist v0.0.0-20180217080326-84d08b7bddb3 h1:v8u84UKIT3DV6NAWGE6XgqHLYP3a7J2Xn8w56KQCWjc=
+howett.net/plist v0.0.0-20180217080326-84d08b7bddb3/go.mod h1:jInWmjR7JRkkon4jlLXDZGVEeY/wo3kOOJEWYhNE+9Y=
