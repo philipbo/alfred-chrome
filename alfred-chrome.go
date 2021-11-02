@@ -10,10 +10,12 @@ import (
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
+	"log"
 	"os"
 	"path"
 	"path/filepath"
 	"strings"
+	"time"
 
 	"howett.net/plist"
 )
@@ -137,6 +139,7 @@ func generateAlfredActions(url, displayURL, displayType string, application Appl
 }
 
 func main() {
+	start := time.Now()
 	// Gather informations about URL
 	url := strings.TrimSpace(strings.Join(os.Args[1:], " "))
 	displayURL := "a new window"
@@ -169,6 +172,8 @@ func main() {
 	// Return the output
 	actions := generateAlfredActions(url, displayURL, displayType, application, profiles)
 
-	json, _ := json.Marshal(AlfredResponse{Items: actions})
-	fmt.Println(string(json))
+	ret, _ := json.Marshal(AlfredResponse{Items: actions})
+	fmt.Println(string(ret))
+
+	log.Printf("---------- finished in %.3f ----------", time.Since(start).Seconds())
 }
